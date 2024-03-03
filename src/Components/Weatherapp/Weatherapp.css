@@ -1,0 +1,74 @@
+.box{
+  background-color: navy;
+  width: 300px;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+}
+.inputs{
+  width: 100%;
+  display: flex;
+  input{
+    flex: 1;
+    border: none;
+    border-radius: 40px;
+    margin-right: 10px;
+    padding-left: 20px;
+    outline: none;
+  }
+  button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  img{
+    width: 20px;
+    border-radius: 50%;
+  }
+  
+}
+.wicon img{
+  width: 170px;
+  
+}
+.temp h1{
+  margin: 0;
+  font-size: 62px;
+}
+.city h1{
+  margin: 0 auto 30px;
+}
+
+.bottom{
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  .humid{
+    display: flex;
+    align-items: center;
+    img{
+      width: 30px;
+      height: 30px;
+    }
+    h2,p{
+      margin: 0 10px;
+    }
+  }
+  .wind{
+    display: flex;
+    align-items: center;
+    img{
+      width:30px;
+      height: 30px;
+    }
+    h2,p{
+      margin: 0 0 0 10px;
+    }
+  }
+}
