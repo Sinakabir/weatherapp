@@ -5,6 +5,12 @@
   text-align: center;
   color: white;
   border-radius: 5px;
+  .error{
+    text-align: left;
+    font-size: 14px;
+    color: red;
+    display: none;
+  }
 }
 .inputs{
   width: 100%;
